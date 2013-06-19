@@ -1,2 +1,7 @@
-#!/bin/bash
+#!/usr/bin/env ruby
+
+{
+  "config_vars" => {}, # environment variables that should be set
+  "default_process_types" => { "web" => "gotour -http='0.0.0.0:$PORT' --openbrowser=false"} #
+}.to_yaml
 
