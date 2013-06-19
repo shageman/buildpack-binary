@@ -4,6 +4,6 @@ require 'yaml'
 
 puts YAML.dump( {
   "config_vars" =>{}, # environment variables that should be set
-  "default_process_types" =>{ "web" => "gotour -http='0.0.0.0:$PORT' --openbrowser=false"} #
+  "default_process_types" =>{ "web" => "#{ARGV[0]}/gotour -http='0.0.0.0:$PORT' --openbrowser=false"} #
 })
 
