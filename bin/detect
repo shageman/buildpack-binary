@@ -1,6 +1,4 @@
 #!/bin/bash
 
-BUILD_DIR=$1
-
+echo "!!! shageman/buildpack-binary !!!"
 exit 0
-

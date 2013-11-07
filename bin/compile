@@ -1,2 +1,4 @@
 #!/bin/bash
 
+echo "-----> Compiling Binary buildpack..."
+echo "       Nothing to do. Done."
